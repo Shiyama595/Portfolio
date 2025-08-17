@@ -769,3 +769,29 @@ footer .text span a:hover{
   color: #fff;
 }
 
+.certifications .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.certifications .boxes .box {
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.certifications .boxes .box:hover {
+  background: #9945e7;
+  color: #fff;
+}
+
+.certifications .boxes .box .topic {
+  font-weight: 500;
+  font-size: 18px;
+}

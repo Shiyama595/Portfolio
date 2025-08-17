@@ -24,7 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #9945e7;
 }
-/* navbar styling */
+
 nav{
   position: fixed;
   width: 100%;
@@ -124,7 +124,7 @@ nav.sticky .menu-btn{
   font-size: 1.8em;
   color: #9945e7;
 }
-.hero-buttons .btn {
+.hero-section .btn {
   display: inline-block;
   margin: 10px;
   padding: 12px 25px;
@@ -144,6 +144,44 @@ nav.sticky .menu-btn{
   border: 2px solid #FF8F7A;
   color: #FF8F7A;
   background-color: transparent;
+}
+.languages .content,
+.hobbies .content,
+.soft-skills .content {
+  text-align: center;
+}
+.soft-skills .box,
+.hobbies .box,
+.languages .box {
+  display: inline-block;   /* keeps them side by side if space allows */
+  margin: 10px;           /* spacing between items */
+  padding: 10px 15px;
+  border-radius: 10px;    /* optional rounded look */
+  background: #f9f9f9;    /* optional light background */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional subtle shadow */
+}
+/* Download Resume Button */
+.download-btn {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background: #9945e7;
+  border: 2px solid #9945e7;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none; /* removes underline */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.download-btn:hover {
+  background: #fff;
+  color: #9945e7;
+  border-color: #9945e7;
 }
 
 .home{
